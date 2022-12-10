@@ -41,3 +41,19 @@ body{
     margin-top : 2rem;
     font-size: 2rem;
 }
+
+/*--- RESPONSIVE VERSION----*/
+@media(max-width: 768px){
+    .container{
+      flex-basis: 60%;
+      max-width: 60%;
+    }
+}
+
+@media(max-width: 540px){
+  .container{
+    flex-basis: 90%;
+    max-width: 90%;
+    padding-inline: 0.3rem;
+  }
+}
